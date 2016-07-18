@@ -1,0 +1,32 @@
+{
+  "name": "eventemitter2-wait",
+  "version": "1.0.0",
+  "description": "Fork of EventEmitter2 to allow delaying & cancellation of emit() events.",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgrenier/eventemitter2-wait.git"
+  },
+  "keywords": [
+    "eventemitter",
+    "eventemitter2",
+    "promise",
+    "async"
+  ],
+  "author": "Michael Grenier <michael.grenier@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgrenier/eventemitter2-wait/issues"
+  },
+  "homepage": "https://github.com/mgrenier/eventemitter2-wait#readme",
+  "dependencies": {
+    "eventemitter2": "0.4.14"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
