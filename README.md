@@ -1,17 +1,17 @@
-# Sinaps EventEmitter
-Sinaps EE is a extension of [EventEmitter2](https://github.com/asyncly/EventEmitter2) to allow `emit()` function to be delayed or cancelled by listeners.
+# EventEmitter2-Wait
+This package is an extension of [EventEmitter2](https://github.com/asyncly/EventEmitter2) to allow `emit()` function to be delayed or cancelled by listeners.
 
-[![Build Status](https://travis-ci.org/sinapsio/sinaps-ee.svg)](https://travis-ci.org/sinapsio/sinaps-ee)
+[![Build Status](https://travis-ci.org/mgrenier/eventemitter2-wait.svg)](https://travis-ci.org/mgrenier/eventemitter2-wait)
 
 ## Install
 ```js
-npm install --save sinaps-ee
+npm install --save eventemitter2-wait
 ```
 
 ## Usage
 
 ```js
-var EventEmitter = require('sinaps-ee');
+var EventEmitter = require('eventemitter2-wait');
 
 // Create new event emitter
 var emitter = new EventEmitter();
