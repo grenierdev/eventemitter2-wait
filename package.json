@@ -1,6 +1,6 @@
 {
   "name": "eventemitter2-wait",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fork of EventEmitter2 to allow delaying & cancellation of emit() events.",
   "main": "main.js",
   "scripts": {
